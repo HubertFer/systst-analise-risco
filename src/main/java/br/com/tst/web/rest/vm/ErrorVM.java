@@ -44,4 +44,19 @@ public class ErrorVM implements Serializable {
         }
         violations.put(key, value);
     }
+
+	public void setMessage(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setPath(String requestURI) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setTrace(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 }
